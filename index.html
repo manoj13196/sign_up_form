@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up_form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+       <section id="sidebar_with_logo">
+            <div class="logo">
+                <img class="img" src="./images/odin-lined.png" alt="odin_image">
+                <p>ODIN</p>
+            </div>
+        
+       </section>
+
+       <section id="main_form">
+           <div class="intro-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sapiente expedita itaque iusto magnam amet alias eos aperiam non facere?
+                </p>
+                <h6>You <i>know</i> you want to.</h6>
+           </div>
+            <div class="form_container">
+                <form>
+                    <h4>Let's do this!</h4>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="First_name">FIRST NAME</label>
+                            <input type="text" id="First_name" name="First_name">
+                        </div>
+                        <div class="input-group">
+                            <label for="Last_name">LAST NAME</label>
+                            <input type="text" id="Last_name" name="Last_name">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="Email">EMAIL</label>
+                            <input type="email" id="Email" name="Email">
+                        </div>
+                        <div class="input-group"> 
+                            <label for="Phone_number"> PHONE NUMBER</label>
+                            <input type="number" id="Phone_number" name="Phone_number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group"> 
+                            <label for="Password">PASSWORD</label>
+                            <input type="password" id="Password" name="Password" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="Password_Confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="Confirm_Password" name="Password" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+           <div class="signup">
+            <button id="btn">create account</button>
+            <p>Already have an account? <a href="" style="text-decoration: none;" >login</a></p>
+           </div>
+       </section>
+
+    </div>
+</body>
+</html>
